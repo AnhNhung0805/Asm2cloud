@@ -14,10 +14,10 @@ list-style: none;
 <h2>Enter data into student table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li>Student ID:</li><li><input type="text" name="Productid" /></li>
-<li>Full Name:</li><li><input type="text" name="Productname" /></li>
-<li>Email:</li><li><input type="text" name="Quantily" /></li>
-<li>Class:</li><li><input type="text" name="Price" /></li>
+<li>Productid:</li><li><input type="text" name="Productid" /></li>
+<li>Productname:</li><li><input type="text" name="Productname" /></li>
+<li>Quantily:</li><li><input type="text" name="Quantily" /></li>
+<li>Price:</li><li><input type="text" name="Price" /></li>
 <li><input type="submit" /></li>
 </form>
 </ul>
