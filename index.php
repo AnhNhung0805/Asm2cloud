@@ -26,7 +26,7 @@
 					<img src="Hinhanh/1.png" width="30" height="30">
 				
 				<div class="Chu">
-					<a href="lienhe.html"><b>18009432</a>
+                                    <a href="InsertData.php"><b>InsertData</b></a>
 					
 				</div>
 				</div>
