@@ -1,0 +1,1408 @@
+body{
+	margin: 0px;
+}
+ul, ol {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+}
+a {
+	color: white;
+	text-decoration: none; 
+}
+.Khungtongtren{
+	width: 100%;
+	height: auto;
+}
+.Khungthanhlienhe{
+	width: 100%;
+	height: 50px;
+
+}
+.Khungtronglienhe{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+}
+.Khunghinh{
+	width: 30px;
+	height: 30px;
+
+	float: left;	
+	border-radius: 99px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.Chu a{
+	float: left;
+	margin-left: 40px;
+	margin-top: -28px;
+	color: red;
+	font-size: 14px;
+	font-family: "Montserrat",sans-serif;
+
+}
+.Khunghinh1{
+	width: 30px;
+	height: 30px;
+
+	float: left;	
+	border-radius: 99px;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+.Khunghinh2{
+	width: 30px;
+	height: 30px;
+
+	float: right;	
+	border-radius: 99px;
+	margin-top: 10px;
+	margin-right:450px;
+}
+.Chu1 a{
+	width: 170px;
+	height: 50px;
+	float: left;
+	margin-left: 40px;
+	margin-top: -28px;
+	color: red;
+	font-size: 14px;
+	font-family: "Montserrat",sans-serif;
+
+}
+.Khunghinh2{
+	width: 30px;
+	height: 30px;
+	float: right;	
+	border-radius: 99px;
+	margin-top: 10px;
+	margin-right:450px;
+}
+.Khunghinh3{
+	width: 30px;
+	height: 30px;
+	float: right;	
+	margin-top: 10px;
+	margin-right:-280px;
+}
+.Chu a:hover{
+	color: black;
+}
+.Chu1 a:hover{
+	color: black;
+
+}
+.Khungthanhtiemkiem{
+	width: 100%;
+	height: 110px;
+	background-color:#333;
+}
+
+
+.Noidungtrongthanhtimkiem{
+	width: 1200px;
+	height: 110px;
+
+	margin: 0 auto;
+
+}
+.Khunglogo{
+	width: 200px;
+	height: 40px;
+
+	float: left;
+	margin-left: 70px;
+	margin-top: 35px;
+}
+.Khungtimkiemsanpham input:first-child {
+	width: 400px;
+	height: 32px;
+	padding: 0px;
+	border: none;
+	background-color: #ffffff;	
+	padding-left: 20px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	margin-top: 35px;
+	margin-left: 40px;
+	color: red;
+	font-family: 'Helvetica Neue';
+
+}
+.Khungtimkiemsanpham input:last-child {
+	width: 40px;
+	height: 32px;
+	background-image: url(images/Kinhlup1.png);
+	background-repeat: no-repeat; /*không Lặp lại hình nền*/
+	background-position: center center; /*Vị trí hình nền*/
+	background-color: black;
+	border: none;
+	margin: 0px;
+	float: right;
+	margin-right: 430px;
+	margin-top: 35px;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+.Hinhuser{
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 320px;
+	margin-top: -30px;
+}
+.Hinhgiohang{
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 200px;
+	margin-top: -30px;
+}
+.Khungtonggiua{
+	width: 100%;
+	height: auto;
+
+}
+.Khungthanhmenu{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	margin-top: -16px;
+}
+.Trongthanhmenu{
+	width: 1060px;
+	height: 60px;
+	margin: 0 auto;
+}
+.Trongthanhmenu ul{
+	list-style-type: none;
+	text-align: center;
+}
+.Trongthanhmenu ul li{
+	color: white;
+	float: left;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	position: relative;
+}
+.Trongthanhmenu ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-family: "Montserrat",sans-serif;
+	font-size: 14px;
+
+}
+.Trongthanhmenu ul li a:hover{
+	background-image: linear-gradient(#3b3b3b, gray);
+	color: #d22121;
+}
+.Trongthanhmenu ul li > .Submenu {
+	display: none;
+	z-index: 1px;
+	position: absolute;
+}
+.Trongthanhmenu ul li:hover .Submenu{
+	display: block;
+	position: absolute;
+	background-image: linear-gradient(#3b3b3b, gray);
+
+}
+
+.slider{
+	width: 100%;
+	height: 380px;
+	margin: 0 auto;
+}
+.Khungsanpham1{
+	width: 1200px;
+	height: 960px;
+	margin: 0 auto;
+
+}
+.Hinhxoxuong{
+	width: 80px;
+	height: 50px;
+	margin: 0 auto;
+}
+.Khungchuspkm{
+	width: 1000px;
+	height: 40px;
+
+	margin: 0 auto
+}
+.Khungtrongspkm1{
+	width: 300px;
+	height: 40px;
+	float: left;
+
+
+
+}
+.Khungtrongspkm2{
+	width: 350px;
+	height: 40px;
+	margin: 0 auto;
+
+	
+}
+.Chutrangchucongsanpham a{
+	color: #d22121;
+}
+.Khungtrongspkm3{
+	width: 300px;
+	height: 40px;
+	float: right;
+
+
+	margin-top: -40px;
+	
+}
+.Gachke{
+	border-bottom: 1.5px solid black;
+	margin-top: 15px;
+}
+.Khungtrongspkm2 h1{
+	font-family: "Montserrat",sans-serif;
+	font-size: 29px;
+	margin-top: 7px;
+	color: #d22121;
+}
+.Khunggosanpham{
+	width: 1050px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.Osanpham{
+	width: 225px;
+	height: 350px;
+	background-color: white;
+	float: left;
+	margin-left: 30px;
+	border: 1px solid black;
+
+}
+
+
+.Khungao{
+	width: 225px;
+	height: 200px;
+}
+.Khungao img{
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.Khungquan img{
+	float: left;
+	margin-left: 55px;
+	margin-top: -40px;
+}
+.Sale img{
+	float: left;
+	margin-top: -198px;
+}
+..Salequan img{
+	float: left;
+}
+.Khungthongtinsanpham{
+	width: 225px;
+	height: 150px;
+
+}
+.Khungthongtinsanphamquan{
+	width: 225px;
+	height: 150px;
+	margin-top: 158px;
+}
+.Khungten{
+	width: 225px;
+	height: 45px;
+	float: left;
+	margin-top: 25px;
+}
+.Khungsao{
+	width: 215px;
+	height: 30px;
+	float: right;
+	margin-top: 3px;
+}
+.Khunggia{
+	width: 225px;
+	height: 30px;
+	float: left;
+	margin-top: 2px;	
+	color: black;
+}
+.Ten{
+	font-family: "Montserrat",sans-serif;
+	float: left;
+	margin-left: 15px;
+	font-size: 14px;
+	margin-top: 5px;
+	color: #d22121;
+}
+.Khungsao img{
+	float: left;
+	margin-left: 5px;
+}
+.Gia{
+	font-size: 18px;
+	float: left;
+	margin-left: 15px;
+}
+.Khunghinhxoxuong{
+	width: 1200px;
+	height: 30px;
+	margin-top: 50px;
+}
+.Hinhxoxuong1{
+	width: 80px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.Osanphammoi{
+	width: 225px;
+	height: 350px;
+	background-color: white;
+	float: left;
+	margin-left: 30px;
+	border: 7px solid black;
+	border-radius: 7px;
+
+}
+.Hinhsanphammoi{
+	width: 225px;
+	height: 220px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 120px;
+	background-image: url(images/21.png);
+	background-repeat: no-repeat; 
+}
+.Khungxemthem{
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	color: white;
+	font-family: "Montserrat",sans-serif;
+
+}
+.Chuxemthem{
+	float: left;
+	margin-left: 7px;
+	margin-top: 10px;
+}
+.Khungchuspm{
+	float: left;
+	margin-left: 40px;
+	margin-top: -60px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Montserrat",sans-serif;
+	line-height: 40px;
+	color: #d22121;
+
+
+}
+.Khungosanphamduoi{
+	width: 100%;
+	height: 950px;
+	background-color:#333;
+	margin-top: 40px;
+}
+.Khungsanpham2{
+	width: 1200px;
+	height: 950px;
+	margin: 0 auto;
+
+}
+.Osanphamduoi{
+	width: 225px;
+	height: 350px;
+	background-color: white;
+	float: left;
+	margin-left: 30px;
+	border: 2px solid black;
+
+}
+.Khungchusph{
+	float: left;
+	margin-left: 5px;
+	margin-top: -90px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Montserrat",sans-serif;
+	line-height: 40px;
+	color: #d22121;
+
+}
+.Khungxemthemcuoi{
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	float: left;
+	margin-left: 30px;
+	margin-top: 80px;
+	color: white;
+	font-family: "Montserrat",sans-serif;
+}
+.Hinhsanphamhot{
+	width: 225px;
+	height: 220px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 150px;
+	background-image: url(images/23.png);
+	background-repeat: no-repeat; 
+}
+.Khungchuspnb{
+	float: left;
+	margin-left: 5px;
+	margin-top: -50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Montserrat",sans-serif;
+	line-height: 40px;
+	color: #d22121;
+}
+.Hinhsanphamnoibat{
+	width: 225px;
+	height: 220px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 100px;
+	background-image: url(images/22.png);
+	background-repeat: no-repeat; 
+}
+.Khungxemthemgiua{
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	float: left;
+	margin-left: 30px;
+	margin-top: 100px;
+	color: white;
+	font-family: "Montserrat",sans-serif;
+}
+.Hinhwinner{
+	float: left;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.Hinhv1{
+	float: left;
+	margin-left: 40px;
+}
+.Hinhv2{
+	float: left;
+	margin-left: 65px;
+}
+.Khungtintuc{
+	width: 100%;
+	height: 570px;
+}
+.Noidungkhungtintuc{
+	width: 1050px;
+	height: 600px;
+	margin:0 auto;
+}
+.Khungchuttkm{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top:40px;
+}
+.Khungtrongttkm1{
+	width: 300px;
+	height: 40px;
+	float: left;
+}
+.Khungtrongttkm2{
+	width: 350px;
+	height: 40px;
+	margin: 0 auto;
+
+	
+}
+.Khungtrongttkm3{
+	width: 300px;
+	height: 40px;
+	float: right;
+	margin-top: -40px;
+	
+}
+.Gachke{
+	border-bottom: 1.5px solid black;
+	margin-top: 15px;
+}
+.Khungtrongttkm2 h1{
+	font-family: "Montserrat",sans-serif;
+	font-size: 29px;
+	margin-top: 7px;
+	color: #d22121;
+}
+.Khungtrongtintuc{
+	width: 325px;
+	height: 500px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 40px;
+}
+.Tieudetintuc{
+	width: 325px;
+	height: 50px;
+	margin-top: 30px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 15px;
+	color: #d22121;
+}
+.Nguoidangtin{
+	width: 325px;
+	height: 40px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 13px;
+	border-bottom: 1.5px solid black;
+	color: #686464;
+
+}
+.Noidungtintuc{
+	width: 325px;
+	height: 90px;
+	margin-top: 10px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 13px;
+	color: #686464;
+}
+.Khungtongcuoi{
+	width: 100%;
+	height: auto;
+}
+.Khungdangkynhantin{
+	width: 100%;
+	height: 120px;
+	background-color: #2e2e2e;
+}
+.Khungthontinshop{
+	width: 100%;
+	height: 350px;
+	background-color: #484848;
+}
+.Noidungkhungdangkynhantin{
+	width: 1200px;
+	height: 120px;
+	background-color: #2e2e2e;
+	margin: 0 auto;
+}
+.Khungchuvatimkiem{
+	width: 1200px;
+	height: 50px;
+	float: left;
+	margin-top: 25px;
+}
+.Khungtimkiememail input:first-child {
+	width: 400px;
+	height: 40px;
+	padding: 0px;
+	border: none;
+	background-color: #ffffff;	
+	padding-left: 20px;
+	border-radius: 15px;
+	margin-top: 5px;
+	float: right;
+	margin-right: 130px;
+	font-family: 'Helvetica Neue';
+
+}
+.Khungtimkiememail input:last-child {
+	width: 100px;
+	height: 40px;
+	font-family: "Montserrat",sans-serif;
+	background-repeat: no-repeat; /*không Lặp lại hình nền*/
+	background-position: center center; /*Vị trí hình nền*/
+	background-color: black;
+
+	border: none;
+	margin: 0px;
+	float: right;
+	margin-top: 5px;
+	margin-right: -490px;
+	border-radius: 15px;
+	color: white;
+
+}
+.Chudangky{
+	color: #d22121;
+	font-size: 26px;
+	font-family: "Montserrat",sans-serif;
+	float: left;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.Noidungthongtinshop{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+}
+.Khungdanhmuc a{
+	color: #d22121;
+}
+.Khungthongtin1{
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-left: 100px;
+	font-family: "Montserrat",sans-serif;
+	color: white;
+}
+.Khungthongtin2{
+	width: 170px;
+	height: 400px;
+	float: left;
+	margin-left: 30px;
+	font-family: "Montserrat",sans-serif;
+	color: white;
+}
+.Khungthongtin3{
+	width: 150px;
+	height: 400px;
+	float: left;
+	margin-left: 100px;
+	font-family: "Montserrat",sans-serif;
+	color: white;
+}
+.Khungthongtin4{
+	width: 220px;
+	height: 400px;
+	float: left;
+	margin-left: 70px;
+	font-family: "Montserrat",sans-serif;
+	color: white;
+}
+.Khungthongtin1 img{
+	margin-top: 50px;
+}
+.Noidungthongtin1{
+	width: 300px;
+	height: 200px;
+	margin-top: 20px;
+}
+.Noidungthongtin1 img{
+	margin-top: 0px;
+}
+.Oicon{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+	line-height: 
+}
+.Trangchugtsp{
+	line-height: 15px;
+	font-size: 13px;
+}
+.Diachishop{
+	line-height: 15px;
+	font-size: 13px;
+}
+.Thongtin2{
+	margin-top: 50px;
+
+}
+.Huongdan{
+	line-height: 30px;
+	font-size: 13px;
+}
+.Thongtin3{
+	margin-top: 50px;
+
+}
+.Chuketnoi{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.Khungicon{
+	margin-top: 40px;
+}
+.Chuthanhtoan{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	margin-top: 35px;
+}
+.Hinhthanhtoan{
+	float: left;
+	margin-left: 10px;
+	margin-top: 35px;
+}
+.Thongtin4{
+	float: left;
+	margin-top: 50px;
+
+}
+.Khungcuoicung{
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+}
+.Khungtrongcuoi{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	
+}
+.Chu2019{
+	float: left;
+	margin-left: 550px;
+	margin-top: -35px;
+	color: #686464;
+	font-family: "Montserrat",sans-serif;
+}
+.Khungtonggiuasanpham{
+	width: 100%;
+	height: auto;
+}
+.Noidungkhungtonggiuasanpham{
+	width: 1200px;
+	height: 1830px;
+	margin: 0 auto;
+}
+.Trangchucongsanpham{
+	width: 1200px;
+	height: 50px;
+
+
+}
+.Chutrangchucongsanpham{
+	float: left;
+	margin-left:60px;
+	margin-top: 15px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 13px;
+
+}
+.Khungsanphamduoi{
+	width: 1200px;
+	height: 1800px;
+
+}
+.Khungbentrai{
+	width: 390px;
+	height: 1770px;
+	float: left;
+}
+.Khungbenphai{
+	width: 810px;
+	height: 1770px;
+	float:right;
+}
+.Khungdanhmuc{
+	width: 200px;
+	height: 380px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 60px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 14.5px;
+}
+.Chuchung{
+	font-family: tahoma;
+	font-size: 27px;
+	color: #d22121;
+}
+.Khungkhoanggia{
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin-left: 60px;
+}
+.Otich{
+	width: 17px;
+	height: 17px;
+	background-color: white;
+	border: 1px solid #5a5454;
+	border-radius: 5px;
+	margin-top: 15px;
+
+}
+
+
+
+.Khungotich{
+	margin-top: 35px;
+}
+.Khunggiatrongkhoanggia{
+	width: 200px;
+	height: 400px;
+	float: right;
+	margin-top: -240px;
+	margin-right: 90px;
+	
+}
+.Gia1{
+	margin-top: 19px;
+	font-size: 13px;
+	float: left;
+	margin-left: 15px;
+
+}
+.Khungmausac{
+	width: 300px;
+	height: 160px;
+	float: left;
+	margin-left: 60px;
+}
+.Khungmautren{
+	width: 300px;
+	height: 30px;
+	margin-top: 10px;
+
+}
+.Omau1{
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: black;
+}
+.Omau2{
+	width: 29px;
+	height: 29px;
+	border-radius: 99px;
+	background-color: white;
+	border: 1px solid #5a5454;
+	float: left;
+	margin-left: 40px;
+	margin-top: -30px;
+}
+.Omau3{
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: #f1c40f;
+	float: left;
+	margin-top: -30px;
+	margin-left: 10px;
+}
+.Omau4{
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: #9b59b6;
+	float: left;
+	margin-top: -30px;
+	margin-left: 50px;
+}
+.Omau5{
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: #e74c3c;
+	float: left;
+	margin-top: -30px;
+	margin-left: 90px;
+}
+.Omau6{
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: #2ecc71;
+	float: left;
+	margin-top: -30px;
+	margin-left: 130px;
+}
+.Khungmauduoi{
+	width: 300px;
+	height: 50px;
+	margin-top: 10px;
+
+}
+.Omau7{
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: #ff00cc;
+}
+.Omau8{
+	width: 29px;
+	height: 29px;
+	border-radius: 99px;
+	background-color: #e67e22;
+	float: left;
+	margin-left: 40px;
+	margin-top: -30px;
+}
+.Khungsanphamnoibattrai{
+	width: 300px;
+	height: 800px;
+	float: left;
+	margin-left: 60px;
+
+}
+.Khungaotrai{
+	width: 290px;
+	height: 150px;
+	border-bottom: 1.5px solid black;
+	float: left;
+	margin-top: 30px;
+}
+.Aotrai{
+	width: 120px;
+	height: 160px;
+	float: left;
+
+}
+.Khungaotraicuoi{
+	width: 300px;
+	height: 160px;
+	float: left;
+	margin-top: 30px;
+}
+.Tenvagia{
+	color: #d22121;
+	float: left;
+	margin-top: 75px;
+	margin-left: -10px;
+	font-family: "Montserrat",sans-serif;
+}
+.Khungchutatcasanpham{
+	width: 810px;
+	height: 90px;
+}
+.Chubenphai{
+	font-family: tahoma;
+	color: #d22121;
+	font-size: 21px;
+	float: left;
+	margin-top: 25px;
+}
+.Hangsanpham1{
+	width: 850px;
+	height: 420px;
+	float: right;
+
+}
+.Osanphamphai{
+	width: 225px;
+	height: 350px;
+	background-color: white;
+	float: left;
+	margin-left: 40px;
+	border: 1px solid black;
+}
+.Khungaoso5{
+	width: 225px;
+	height: 200px;
+}
+.Khungaoso5 img{
+	float: left;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+.Saleso5 img{
+	float: left;
+	margin-top: 2px;
+	margin-left: -120px;
+}
+.Khungtonggiualienhe{
+	width: 100%;
+	height: auto;
+}
+.Noidungkhungtonggiualienhe{
+	width: 1200px;
+	height: 630px;
+	margin: 0 auto;
+
+}
+.Khungbentrailienhe{
+	width: 400px;
+	height: 570px;
+	float: left;
+	margin-top: 10px;
+
+}
+.Khungbenphailienhe{
+	width: 800px;
+	height: 570px;
+	float: right;
+	margin-top: 10px;
+
+}
+.Vitrilienhe{
+	float: left;
+	margin-left: 60px;
+}
+.Dienthoailienhe{
+	float: left;
+	margin-left: -30px;
+	margin-top: 50px;
+}
+.Thulienhe{
+	float: left;
+	margin-left: -30px;
+	margin-top: 100px;
+}
+.Chuvitri{
+	font-family: "Montserrat",sans-serif;
+	font-size: 13px;
+	float: left;
+	margin-left: 100px;
+	margin-top: -125px;
+}
+.Sdt{
+	font-family: "Montserrat",sans-serif;
+	font-size: 13px;
+	float: left;
+	margin-left: 100px;
+	margin-top: -70px;
+
+}
+.Chuemail{
+	font-family: "Montserrat",sans-serif;
+	font-size: 13px;
+	float: left;
+	margin-left: 100px;
+	margin-top: -25px;
+}
+.Gachkeduoilienhe{
+	width: 340px;
+	height: 30px;
+	float: right;
+	border-bottom: 1.5px solid black;
+}
+.Khungchulienhevoichungtoi{
+	float: left;
+	margin-top: 30px;
+	margin-left: 60px;
+	font-size: 20px;
+	color: #d22121;
+	font-family: "Montserrat",sans-serif;
+}
+.Khunghovaten input {
+	width: 280px;
+	height: 40px;
+	padding: 0px;
+	color: #d22121;
+	border: none;
+	background-color: #ffffff;	
+	padding-left: 20px;
+	border-radius: 15px;
+	margin-top: 30px;
+	margin-left: 60px;	
+	font-family: tahoma;
+	border: 1px solid #5a5454;
+
+}
+.Khungemaillienhe input{
+	width: 280px;
+	height: 40px;
+	padding: 0px;
+	color: #d22121;
+	border: none;
+	background-color: #ffffff;	
+	padding-left: 20px;
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-left: 60px;	
+	font-family: tahoma;
+	border: 1px solid #5a5454;
+
+}
+.Khungnoidunglienhe input{
+	width: 280px;
+	height: 70px;
+	padding: 0px;	
+	border: none;
+	background-color: #ffffff;	
+	color: #d22121;
+	padding-left: 20px;
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-left: 60px;	
+	font-family: tahoma;
+	border: 1px solid #5a5454;
+
+}
+.Khungguilienhe {
+	width: 300px;
+	height: 40px;
+	border: none;
+	background-color: black;	
+	
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 60px;
+	color: white;
+	font-size: 15px;
+	font-family: tahoma;
+}
+.Chulienhe{
+	float: left;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.Khungface{
+	width: 400px;
+	height: 500px;
+	float: left;
+	margin-left: 250px;
+}
+.Khungtonggiuatintuc{
+	width: 100%;
+	height: auto;
+}
+.Noidungkhungtonggiuatintuc{
+	width: 1200px;
+	height: 2380px;
+	margin: 0 auto;
+}
+.Khungtintucduoi{
+	width: 1200px;
+	height: 2000px;
+}
+.Khungtintuctrai{
+	width: 800px;
+	height: 2300px;
+	float: left;
+	margin-top: 30px;
+}
+.Khungtintucphai{
+	width: 320px;
+	height: 2300px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 30px;
+}
+.Chutintucbentintuc{
+	width: 800px;
+	height: 70px;
+	font-family: "Montserrat",sans-serif;
+	font-size:  25px;
+	float: left;
+	margin-left: 55px;
+	color: #d22121;
+}
+.Khungtintuc1{
+	widows: 800px;
+	height: 550px;
+}
+.Chuchungbentintuc{
+	width: 800px;
+	height: 55px;
+	font-family: "Montserrat",sans-serif;
+	color: #d22121;
+	font-size:  27px;
+}
+.Chutrongdmtt {
+	height: 180px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 14px;
+}
+.Khungcactintucnb1{
+	width: 320px;
+	height: 90px;
+	border-bottom: 1.5px solid black;
+}
+.Khungcactintucnb2{
+	width: 320px;
+	height: 90px;
+	border-bottom: 1.5px solid black;
+}
+.Khungcactintucnb3{
+	width: 320px;
+	height: 90px;
+	border-bottom: 1.5px solid black;
+}
+.Khungcactintucnb4{
+	width: 320px;
+	height: 90px;
+	border-bottom: 1.5px solid black;
+}
+.Khungcactintucnb5{ 
+	width: 320px;
+	height: 90px;
+}
+.Khungcactintucnb2 img{
+	margin-top: 20px;
+}
+.Khungcactintucnb3 img{
+	margin-top: 20px;
+}
+.Khungcactintucnb4 img{
+	margin-top: 20px;
+}
+.Khungcactintucnb5 img{ 
+	margin-top: 20px;
+}
+.Tentintucphai1{
+	float: left;
+	font-size: 14px;
+	margin-left: 120px;
+	margin-top: -460px;
+	font-family: "Montserrat",sans-serif;
+	color: black;
+}
+.Tentintucphai2{
+	float: left;
+	font-size: 14px;
+	margin-top: -345px;
+	margin-left: 120px;
+	font-family: "Montserrat",sans-serif;
+	color: black;
+}
+.Tentintucphai3{
+	float: left;
+	font-size: 14px;
+	margin-top: -255px;
+	margin-left: 120px;
+	font-family: "Montserrat",sans-serif;
+	color: black;
+}
+.Tentintucphai4{
+	float: left;
+	font-size: 14px;
+	margin-top: -165px;
+	margin-left: 120px;
+	font-family: "Montserrat",sans-serif;
+	color: black;
+}
+.Tentintucphai5{
+	float: left;
+	font-size: 14px;
+	margin-top: -75px;
+	margin-left: 120px;
+	font-family: "Montserrat",sans-serif;
+	color: black;
+
+}
+.Hinhtin1{
+	float: left;
+	margin-left: 55px;
+}
+.Hinhtin2{
+	float: right;
+	margin-right:  40px;
+}
+.Khungtintuc2{
+	widows: 800px;
+	height: 370px;
+}
+.Hinhtin3{
+	float: left;
+	margin-left:  40px;
+}
+.Hinhtin4{
+	float: right;
+	margin-right:  40px;
+}
+.Khungtintuc3{
+	widows: 800px;
+	height: 410px;
+}
+.Hinhtin5{
+	float: left;
+	margin-left: 45px;
+}
+.Hinhtin6{
+	float: right;
+	margin-right:  40px;
+}
+.Khungtintuc4{
+	widows: 800px;
+	height: 480px;
+}
+.Hinhtin7{
+	float: left;
+	margin-left: -330px;
+}
+.Hinhtin8{
+	float: right;
+	margin-right:  40px;
+}
+.Khungtintuc5{
+	widows: 800px;
+	height: 480px;
+}
+.Hinhtin9{
+	float: left;
+	margin-left: 45px;
+}
+.Hinhtin10{
+	float: right;
+	margin-right:  40px;
+}
+.Khungtonggiuagioithieu{
+	width: 100%;
+	height: auto;
+
+}
+.Noidungkhungtonggiuagioithieu{
+	width: 1200px;
+	height: 1180px;
+	margin:0 auto;
+}
+.Khunggioithieuduoi{
+	width: 1200px;
+	height: 1090px;
+}
+.Khunggioithieubentrai{
+	width: 500px;
+	height: 1090px;
+	float: left;
+	margin-top: 40px;
+
+}
+.Khunggioithieubenphai{
+	width: 700px;
+	height: 1090px;
+	float: right;
+	margin-top: 40px;
+}
+.Chugioithieubengioithieu{
+	width: 500px;
+	height: 60px;
+	float: left;
+	margin-left: 60px;
+	font-family: "Montserrat",sans-serif;
+	font-size: 32px;
+	color: #d22121;
+}
+.Thongtingioithieubengioithieu{
+	font-family: "Montserrat",sans-serif;
+	font-size: 14px;
+	float: left;
+	margin-left: 60px;
+	color: #d22121;
+
+}
+.Thongtingioithieubengioithieu strong{
+	font-family: tahoma;
+	font-size: 17px;
+
+}
+.Khungyoutobe{
+	width: 550px;
+	height: 300px;
+	float: left;
+	margin-left: 50px;
+}
+.Khungggmap{
+	width: 550px;
+	height: 300px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 100px;
+
+}
