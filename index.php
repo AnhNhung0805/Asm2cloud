@@ -42,7 +42,7 @@
 					<img src="Hinhanh/3.png" width="30" height="30">
 					
 					<div class="Chu1">
-                                            <span style="color: red"><a href="php/ConnectToDB.php"><b>ConnectToDB</b></a></span>
+                                            <span style="color: red"><a href="php/ConnectToDB.php"><b>Customer</b></a></span>
 					
 				</div>
 				</div>

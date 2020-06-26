@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Customer information</title>
+</head>
+
 <body>
 
-<h1>DATABASE CONNECTION</h1>
+<h1>Customer information</h1>
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0818!";
+echo "Hello manager!";
 ?>
 
 <?php
@@ -20,7 +24,7 @@ if (empty(getenv("DATABASE_URL"))){
      echo getenv("dbname");
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
-        "host=ec2-50-17-90-177.compute-1.amazonaws.com;user=mpuuionqjzgkvu;password=a63f38f68ec309293693571cb4c0a78b4dfed06de246551e81377102a06d0945;dbname=d9m8970h10o6at",
+       "host=ec2-50-17-90-177.compute-1.amazonaws.com;port=5432;user=mpuuionqjzgkvu;password=a63f38f68ec309293693571cb4c0a78b4dfed06de246551e81377102a06d0945;dbname=d9m8970h10o6at",
         $db["host"],
         $db["port"],
         $db["user"],
@@ -29,23 +33,25 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT * FROM student ORDER BY stuid";
+$sql = "SELECT * FROM customer";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>Students information:</p>';
+echo '<p>Customer information:</p>';
 
 ?>
+
 <div id="container">
-<table class="table table-bordered table-condensed">
+<table id="t01" class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Productid</th>
-        <th>Productname</th>
-        <th>Quantity</th>
-        <th>Price</th>
+        <th>CustomerID</th>
+        <th>Customername</th>
+        <th>Phonenumber</th>
+        <th>Address</th>
+        
       </tr>
     </thead>
     <tbody>
@@ -56,18 +62,19 @@ echo '<p>Students information:</p>';
       ?>
    
       <tr>
-        <td scope="row"><?php echo $row['Productid'] ?></td>
-        <td><?php echo $row['Productname'] ?></td>
-        <td><?php echo $row['Quantity'] ?></td>
-        <td><?php echo $row['Price'] ?></td>
+        <td scope="row"><?php echo $row['customerid'] ?></td>
+        <td><?php echo $row['customername'] ?></td>
+        <td><?php echo $row['phonenumber'] ?></td>
+        <td><?php echo $row['address'] ?></td>
         
       </tr>
-     
       <?php
         }
       ?>
     </tbody>
   </table>
 </div>
+<a href="DeleteCustomer.php" target="_blank">Delete customer information</a>
+<a href="UpdateCustomer.php" target="_blank">Update customer information</a>
 </body>
 </html>
